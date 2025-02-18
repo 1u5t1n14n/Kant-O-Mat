@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wahl-O-Mat Clone</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+  <h1>Wahl-O-Mat</h1>
+  <h2>Bundestagswahl 2025</h2>
+
+  <div class="question-box">
+    <p><strong id="question-number">1/38</strong></p>
+    <p id="question">Sollen Lootboxen in Videospielen verboten werden, weil diese Glückspielsucht fördern?</p>
+
+    <div class="buttons">
+      <button onclick="vote('agree')">Stimme zu</button>
+      <button onclick="vote('neutral')">Neutral</button>
+      <button onclick="vote('disagree')">Stimme nicht zu</button>
+    </div>
+    <button class="skip" onclick="nextQuestion()">Diese überspringen →</button>
+  </div>
+</div>
+
+<div id="results" class="results-container" style="display: none;">
+  <div class="top-party">
+    <img id="top-party-logo" src="default.png" alt="Partei-Logo">
+    <h2 id="top-party-name"></h2>
+    <p id="top-party-desc"></p>
+  </div>
+  <div class="results-list">
+    <h3>Ergebnisse</h3>
+    <ul id="resultsList"></ul>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
