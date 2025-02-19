@@ -3,16 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Wahl-O-Mat Clone</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Kant-O-Mat</title>
+  <link rel="stylesheet" href="styles-pc.css" media="screen and (min-width: 768px)">
+  <link rel="stylesheet" href="styles-mobile.css" media="screen and (max-width: 767px)">
 </head>
 <body>
 <div class="container">
-  <h1>Wahl-O-Mat</h1>
+  <h1>Kant-O-Mat</h1>
   <h2>Bundestagswahl 2025</h2>
 
   <div class="question-box">
-    <p><strong id="question-number">1/38</strong></p>
+    <p><strong id="question-number">1/22</strong></p>
     <p id="question">Sollen Lootboxen in Videospielen verboten werden, weil diese Glückspielsucht fördern?</p>
 
     <div class="buttons">
@@ -25,6 +26,11 @@
 </div>
 
 <div id="results" class="results-container" style="display: none;">
+   <div class="external-link">
+    <a href="https://moldenhauer.live/pos.html" target="_blank">
+      <button class="link-button">Positionen</button>
+    </a>
+  </div>
   <div class="top-party">
     <img id="top-party-logo" src="default.png" alt="Partei-Logo">
     <h2 id="top-party-name"></h2>
