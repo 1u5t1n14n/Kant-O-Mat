@@ -342,7 +342,7 @@ const partyLogos = {
   "AfD": "AFD.png",
   "Bündnis90": "grun.png",
   "BSW": "BSW.png",
-  "Die Linke": "DIELinke.png",
+  "Die Linke": "DIELINKE.png",
   "FDP": "FDP.png",
   "VOLT": "VOLT.png"
 };
