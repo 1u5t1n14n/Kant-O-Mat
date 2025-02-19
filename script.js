@@ -143,7 +143,7 @@ const questions = [
       }
     },
     {
-      "text": "Soll das Selbstbestimmungsgesetz über das eigene Geschlecht (SBGG) behalten werden?",
+      "text": "Soll das Selbstbestimmungsgesetz über das eigene Geschlecht (SBGG) beibehalten werden?",
       "weights": {
         "AfD": -1,
         "CDU": -1,
@@ -156,7 +156,7 @@ const questions = [
       }
     },
     {
-      "text": "Soll man in Deutschland schon ab 16 Jahren wählen gehen dürfen?",
+      "text": "Soll man in Deutschland schon ab 16 Jahren wählen dürfen?",
       "weights": {
         "AfD": -1,
         "CDU": -1,
@@ -168,7 +168,7 @@ const questions = [
       }
     },
     {
-      "text": "Sollen die Bürger*innen in Deutschland mehr mitbestimmen können, z.B. über direkt gewählte Gesetze (Volksentscheide)?",
+      "text": "Sollen die Bürger*innen in Deutschland direkt über Gesetze Abstimmen(Volksentscheide)?",
       "weights": {
         "AfD": 1,
         "CDU": -1,
@@ -207,7 +207,7 @@ const questions = [
       }
     },
     {
-      "text": "Soll der Bund (die deutsche Regierung) mehr Mitbestimmung in der Schulpolitik erhalten?",
+      "text": "Soll die Bundesregierung (die Regierung für ganz Deutschland) mehr Mitbestimmung in der Schulpolitik erhalten? (Im Moment sind dafür die Bundesländer zuständig, für die Berliner Schulen z.B. der Berliner Senat.)",
       "weights": {
         "AfD": -1,
         "CDU": -1,
@@ -233,7 +233,7 @@ const questions = [
       }
     },
     {
-      "text": "Soll es in Deutschland Gesetz sein, 35 Stunden pro Woche zu arbeiten (statt 40 Stunden pro Wochen) und das gleiche Geld zu bekommen?",
+      "text": "Soll es in Deutschland Gesetz sein, 35 Stunden pro Woche zu arbeiten (statt 40 Stunden pro Woche) und das gleiche Geld zu bekommen?",
       "weights": {
         "AfD": -1,
         "CDU": -1,
@@ -246,7 +246,7 @@ const questions = [
       }
     },
     {
-      "text": "Sollen die Zugstrecken (+ ÖPNV) mehr ausgebaut werden als normale Straßen?",
+      "text": "Sollen die Zugstrecken (und der öffentliche Nahverkehr wie U-Bahn, S-Bahn, Buslinien, Tram) mehr ausgebaut werden als normale Straßen?",
       "weights": {
         "AfD": -1,
         "CDU": -1,
@@ -259,7 +259,7 @@ const questions = [
       }
     },
     {
-      "text": "Sollen alle Bürger*innen nach 40 Jahren Arbeiten in Rente gehen dürfen (statt 45 Jahren)?",
+      "text": "Sollen alle Bürger*innen, nachdem sie 40 Jahren gearbeitet habem, in Rente gehen dürfen (statt nach 45 Jahren)?",
       "weights": {
         "AfD": -1,
         "CDU": -1,
