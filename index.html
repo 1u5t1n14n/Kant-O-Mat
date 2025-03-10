@@ -1,47 +1,47 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kant-O-Mat</title>
-  <link rel="stylesheet" href="styles-pc.css" media="screen and (min-width: 768px)">
-  <link rel="stylesheet" href="styles-mobile.css" media="screen and (max-width: 767px)">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Kant-O-Mat</title>
+	<link rel="stylesheet" href="styles-pc.css" media="screen and (min-width: 768px)">
+	<link rel="stylesheet" href="styles-mobile.css" media="screen and (max-width: 767px)">
 </head>
 <body>
-<div class="container">
-  <h1>Kant-O-Mat</h1>
-  <h2>Bundestagswahl 2025</h2>
+	<div class="container">
+		<h1>Kant-O-Mat</h1>
+		<h2>Bundestagswahl 2025</h2>
 
-  <div class="question-box">
-    <p><strong id="question-number">1/22</strong></p>
-    <p id="question">Sollen Lootboxen in Videospielen verboten werden, weil diese Glückspielsucht fördern?</p>
+		<div class="question-box">
+			<p><strong id="question-number">1/22</strong></p>
+			<p id="question">Sollen Lootboxen in Videospielen verboten werden, weil diese Glückspielsucht fördern?</p>
 
-    <div class="buttons">
-      <button onclick="vote('agree')">Stimme zu</button>
-      <button onclick="vote('neutral')">Neutral</button>
-      <button onclick="vote('disagree')">Stimme nicht zu</button>
-    </div>
-    <button class="skip" onclick="nextQuestion()">Diese überspringen →</button>
-  </div>
-</div>
+			<div class="buttons">
+				<button onclick="vote('agree')">Stimme zu</button>
+				<button onclick="vote('neutral')">Neutral</button>
+				<button onclick="vote('disagree')">Stimme nicht zu</button>
+			</div>
+			<button class="skip" onclick="nextQuestion()">Diese überspringen →</button>
+		</div>
+	</div>
 
-<div id="results" class="results-container" style="display: none;">
-   <div class="external-link">
-    <a href="https://moldenhauer.live/pos.html" target="_blank">
-      <button class="link-button">Positionen</button>
-    </a>
-  </div>
-  <div class="top-party">
-    <img id="top-party-logo" src="default.png" alt="Partei-Logo">
-    <h2 id="top-party-name"></h2>
-    <p id="top-party-desc"></p>
-  </div>
-  <div class="results-list">
-    <h3>Ergebnisse</h3>
-    <ul id="resultsList"></ul>
-  </div>
-</div>
+	<div id="results" class="results-container" style="display: none;">
+		<!--<div class="external-link">
+			<a href="https://1u5t1n14n.github.io/Kant-O-Mat/pos.html" target="_blank">
+			<button class="link-button">Positionen</button>
+			</a>
+		</div>-->
+		<div class="top-party">
+			<img id="top-party-logo" src="default.png" alt="Partei-Logo">
+			<h2 id="top-party-name"></h2>
+			<p id="top-party-desc"></p>
+		</div>
+		<div class="results-list">
+			<h3>Ergebnisse</h3>
+			<ul id="resultsList"></ul>
+		</div>
+	</div>
 
-<script src="script.js"></script>
+	<script src="script.js"></script>
 </body>
 </html>

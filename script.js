@@ -337,14 +337,14 @@ const partyLinks = {
 
 
 const partyLogos = {
-  "SPD": "SPD.png",
-  "CDU": "CDU.png",
-  "AfD": "AFD.png",
-  "Bündnis90": "grun.png",
-  "BSW": "BSW.png",
-  "Die Linke": "DIELINKE.png",
-  "FDP": "FDP.png",
-  "VOLT": "VOLT.png"
+  "SPD": "img/SPD.png",
+  "CDU": "img/CDU.png",
+  "AfD": "img/AFD.png",
+  "Bündnis90": "img/grun.png",
+  "BSW": "img/BSW.png",
+  "Die Linke": "img/DIELINKE.png",
+  "FDP": "img/FDP.png",
+  "VOLT": "img/VOLT.png"
 };
 let currentQuestionIndex = 0;
 let scores = { "SPD": 0, "CDU": 0, "AfD": 0 , "Bündnis90": 0, "BSW": 0, "Die Linke": 0, "FDP": 0, "VOLT":0};
